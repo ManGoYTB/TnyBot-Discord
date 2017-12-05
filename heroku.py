@@ -4,7 +4,7 @@ from discord.ext import commands as cmds
 
 from src.basicbot import BasicBot
 
-heroku = BasicBot(command_prefix=cmds.when_mentioned_or("!"))
+heroku = BasicBot(command_prefix=cmds.when_mentioned_or("mb"))
 
 # Tuple of the path to the cog file, and the extra args it takes
 cogs = [
